@@ -16,5 +16,8 @@ public class Main {
                 La mejor película del fin del milenio.
                 Fué lanzada en el año:\t""" + fechaDeLanzamiento;
         System.out.println(sinopsis);
+
+        int clasificacion = (int) media / 2;
+        System.out.println("Cantidad de estrellas: " + clasificacion);
     }
 }
