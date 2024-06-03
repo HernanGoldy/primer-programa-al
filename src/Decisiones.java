@@ -15,8 +15,7 @@ public class Decisiones {
         }
         // código anterior refactorizado
         String mensajePelicula = (fechaDeLanzamiento >= 2022)
-                ? "Películas más populares."
-                : "Película retro que aún vale la pena ver.";
+                ? "Películas más populares." : "Película retro que aún vale la pena ver.";
         System.out.println(mensajePelicula);
 
         if (iuncluidoEnElPlan && tipoDePlan.equals("plus")) {
@@ -26,8 +25,7 @@ public class Decisiones {
         }
         // código anterior refactorizado
         String mensajePlan = (iuncluidoEnElPlan && tipoDePlan.equals("plus"))
-                ? "Película de alta calidad."
-                : "Película no disponible para su plan.";
+                ? "Película de alta calidad." : "Película no disponible para su plan.";
         System.out.println(mensajePlan);
     }
 }
